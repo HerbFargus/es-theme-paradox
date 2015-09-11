@@ -75,7 +75,7 @@ license:		creative commons CC-BY-NC-SA
 
 		<textlist name="gamelist">
 			<selectorColor>ffffff00</selectorColor>
-			<selectedColor>97999b</selectedColor>
+			<selectedColor>8b0000</selectedColor>
 			<primaryColor>393a3b</primaryColor>
 			<secondaryColor>000000</secondaryColor>
 			<fontPath>./art/PressStart2P.ttf</fontPath>
