@@ -19,7 +19,7 @@
 		
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed"> 
 	
 		<image name="background" extra="true">
 			<path>./art/R_n64_art.png</path>
@@ -60,7 +60,6 @@
 	</view>
 
 	<view name="detailed">
-	
 
 		<image name="md_image">
 			<pos>.5 .35</pos>
@@ -143,6 +142,20 @@
 			<size>1 1</size>
 			<pos>1 1</pos>
 		</text>
+		
+		<image name="header1" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.14</size>
+			<path>./../art/bright.png</path>
+		</image>
+
+		<image name="footer1" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./../art/bright.png</path>
+		</image>
 		
 		<textlist name="gamelist">
 			<pos>0 0.65</pos>
