@@ -22,27 +22,27 @@
 	<view name="basic, detailed"> 
 	
 		<image name="background" extra="true">
-			<path>./art/R_n64_art.png</path>
+			<path>./art/n64_bg_large-controller.png</path>
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<origin>0 0</origin>
 		</image>
 	
 		<text name="system_name_1" extra="true">
-			<text>Nintendo 64</text>
+			<text></text>
 			<forceUppercase>1</forceUppercase>
 			<size>0.45 0.16</size>
 			<pos>0.527 0</pos>
 			<color>7b7d7f</color>
 			<fontPath>./../art/OPENSANS-LIGHT.TTF</fontPath>
-			<fontSize>0.055</fontSize>
+			<fontSize>0.025</fontSize>
 			<alignment>right</alignment>
 		</text>
 		
 		<image name="logo">
 			<path>./art/n64.svg</path>
-			<pos>0.025 0.079</pos>
-			<maxSize>0.47 0.1</maxSize>
+			<pos>0.010 0.040</pos>
+			<maxSize>0.376 0.056</maxSize>
 			<origin>0 0.5</origin>
 		</image>
 
@@ -62,9 +62,9 @@
 	<view name="detailed">
 
 		<image name="md_image">
-			<pos>.5 .35</pos>
+			<pos>.5 .30</pos>
 <!-- 			<size>0.23 0.301</size>
- -->			<maxSize>0.4 0.4</maxSize>
+ -->			<maxSize>0.35 0.35</maxSize>
 			<origin>.5 .5</origin>
 		</image>
 		
@@ -143,27 +143,41 @@
 			<pos>1 1</pos>
 		</text>
 		
-		<image name="header1" extra="true">
+		<image name="headermiddle" extra="true">
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<size>1 0.14</size>
-			<path>./../art/bright.png</path>
+			<size>1 0.08</size>
+			<path>./../art/TopMiddle.png</path>
 		</image>
-
-		<image name="footer1" extra="true">
+		
+		<image name="headerleft" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>0 0.08</size>
+			<path>./../art/TopLeft.png</path>
+		</image>
+		
+		<image name="headerright" extra="true">
+			<pos>.775 0</pos>
+			<origin>0 0</origin>
+			<size>0 0.08</size>
+			<path>./../art/TopRight.png</path>
+		</image>
+		
+		<image name="footerbottom" extra="true">
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 			<size>1 0.065</size>
-			<path>./../art/bright.png</path>
-		</image>
+			<path>./../art/Bottom.png</path>
+		</image> 
 		
 		<textlist name="gamelist">
-			<pos>0 0.65</pos>
-			<size>1 .25</size>
+			<pos>0 0.50</pos>
+			<size>1 .37</size>
 			<alignment>center</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>
-
+		
 	</view>
 	
 </theme>
