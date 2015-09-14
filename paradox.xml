@@ -1,0 +1,122 @@
+<!--
+theme name:		paradox
+version:		1.0
+authors:		Rookervik, Herb Fargus, Ronoh55
+website:		http://blog.petrockblock.com/retropie/
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+	</view>
+
+    <view name="basic, detailed">
+		
+		<image name="background" extra="true">
+			<path>./art/black.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+		</image> 
+		
+		<image name="headermiddle" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.08</size>
+			<path>./art/middle.png</path>
+		</image>
+		
+		<image name="headerleft" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>0 0.08</size>
+			<path>./art/topleft.png</path>
+		</image>
+		
+		<image name="headerright" extra="true">
+			<pos>.787 0</pos>
+			<origin>0 0</origin>
+			<size>0 0.08</size>
+			<path>./art/topright.png</path>
+		</image>
+		
+		<image name="bottom" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./art/bottom.png</path>
+		</image> 
+		
+		<image name="md_image">
+			<pos>.5 .30</pos>
+<!-- 			<size>0.23 0.301</size>
+ -->			<maxSize>0.35 0.35</maxSize>
+			<origin>.5 .5</origin>
+		</image>
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description, md_releasedate, md_lastplayed">
+			<pos>1 1</pos>
+		</text>
+
+		<textlist name="gamelist">
+			<selectorColor>181417</selectorColor>
+			<selectedColor>8b0000</selectedColor>
+			<primaryColor>393a3b</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./art/Geometos.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<pos>0 0.10</pos>
+			<!-- <scrollSound>./art/sound.wav</scrollSound> -->
+		</textlist>
+		
+		<!-- Sounds
+		<sound name="systemscroll">
+			<path>./art/systemscroll.wav</path>
+		</sound>
+		
+		<sound name="systemselect">
+			<path>./art/systemscroll.wav</path>
+		</sound>
+		
+		<sound name="listscroll">
+			<path>./art/listscroll.wav</path>
+		</sound>
+		
+		<sound name="back">
+			<path>./art/back.wav</path>
+		</sound>
+		
+		<sound name="launch">
+			<path>./art/launch.wav</path>
+		</sound>
+		
+		<sound name="menuopen">
+			<path>./art/menu.wav</path>
+		</sound>
+		 -->
+		 
+	</view>
+
+	<view name="basic">
+	
+	</view>
+
+	<view name="detailed">
+		<textlist name="gamelist">
+			<pos>0 0.50</pos>
+			<size>1 .40</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+	</view>
+	
+</theme>
