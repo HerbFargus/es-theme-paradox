@@ -5,179 +5,57 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<path>./art/R_n64_art.png</path>
+			<path>./art/main.jpg</path>
 		</image>
 
 		<image name="logo">
-			<path>./art/n64.svg</path>
+			<path>./art/logo.svg</path>
         </image>
 		
 		<helpsystem name="help">
-			<textColor>00000077</textColor>
-			<iconColor>00000077</iconColor>
+			<textColor>ffffff66</textColor>
+			<iconColor>ffffff66</iconColor>
 		</helpsystem>
 		
 	</view>
 
-	<view name="basic, detailed"> 
-	
-		<image name="background" extra="true">
-			<path>./art/n64_bg_large-controller.png</path>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<origin>0 0</origin>
-		</image>
-	
-		<text name="system_name_1" extra="true">
-			<text></text>
-			<forceUppercase>1</forceUppercase>
-			<size>0.45 0.16</size>
-			<pos>0.527 0</pos>
-			<color>7b7d7f</color>
-			<fontPath>./../art/OPENSANS-LIGHT.TTF</fontPath>
-			<fontSize>0.025</fontSize>
-			<alignment>right</alignment>
-		</text>
+	<view name="basic, detailed">
 		
 		<image name="logo">
-			<path>./art/n64.svg</path>
-			<pos>0.010 0.040</pos>
+			<path>./art/logo.svg</path>
+			<pos>0.025 0.079</pos>
+			<maxSize>0.47 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<image name="logo2" extra="true">
+			<path>./art/nintendo_man.svg</path>
+			<pos>0.83 0.040</pos>
 			<maxSize>0.376 0.056</maxSize>
 			<origin>0 0.5</origin>
 		</image>
-
-	</view>
-
-	<view name="basic">
 		
-		<textlist name="gamelist">
-			<pos>0 0</pos>
-			<size>.1 .1</size>
-			<alignment>center</alignment>
-			<horizontalMargin>0.01</horizontalMargin>
-		</textlist>
-		
-	</view>
-
-	<view name="detailed">
-
-		<image name="md_image">
-			<pos>.5 .30</pos>
-<!-- 			<size>0.23 0.301</size>
- -->			<maxSize>0.35 0.35</maxSize>
-			<origin>.5 .5</origin>
-		</image>
-		
-		<text name="md_lbl_rating">
-			<pos>1 1</pos>
-		</text>
-		
-		<text name="md_lbl_releasedate">
-			<pos>1 1</pos>
-		</text>
-		
-		<text name="md_lbl_developer">
-			<pos>1 1</pos>
-			<size>0.133 0.04</size>
-		</text>
-
-		<text name="md_lbl_publisher">
-			<pos>1 1</pos>
-			<size>0.133 0.04</size>
-		</text>
-		
-		<text name="md_lbl_genre">
-			<pos>1 1</pos>
-		</text>
-		
-		<text name="md_lbl_players">
-			<pos>1 1</pos>
-		</text>
-
-		<text name="md_lbl_lastplayed">
-			<pos>1 1</pos>
-		</text>
-
-		<text name="md_lbl_playcount">
-			<pos>1 1</pos>
-		</text>
-		
-		<text name="md_playcount">
-			<pos>1 1</pos>
-		</text>
-
-		<datetime name="md_lastplayed">
-			<pos>1 1</pos>
-		</datetime>
-		
-		<text name="md_players">
-			<pos>1 1</pos>
-		</text>
-		
-		<text name="md_genre">
-			<pos>1 1</pos>
-			<size>0.14 0.04</size>
-		</text>
-
-		<text name="md_publisher">
-			<pos>1 1</pos>
-		</text>
-		
-		<text name="md_developer">
-			<pos>1 1</pos>
-		</text>
-		
-		<datetime name="md_releasedate">
-			<pos>1 1</pos>
-		</datetime>
-		
-		<rating name="md_rating">
-			<pos>1 1</pos>
-			<size>0.028 0.028</size>
-			<filledPath>./../art/star_filled_spacing.svg</filledPath>
-			<unfilledPath>./../art/star_hollow_3_spacing.svg</unfilledPath>
-		</rating>
-		
-		<text name="md_description">
-			<size>1 1</size>
-			<pos>1 1</pos>
-		</text>
-		
-		<image name="headermiddle" extra="true">
-			<pos>0 0</pos>
+		<image name="controller" extra="true">
+			<pos>.57 .40</pos>
 			<origin>0 0</origin>
-			<size>1 0.08</size>
-			<path>./../art/TopMiddle.png</path>
-		</image>
-		
-		<image name="headerleft" extra="true">
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>0 0.08</size>
-			<path>./../art/TopLeft.png</path>
-		</image>
-		
-		<image name="headerright" extra="true">
-			<pos>.775 0</pos>
-			<origin>0 0</origin>
-			<size>0 0.08</size>
-			<path>./../art/TopRight.png</path>
+			<size>0 0</size>
+			<path>./art/controller.png</path>
 		</image>
 		
 		<image name="footerbottom" extra="true">
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 			<size>1 0.065</size>
-			<path>./../art/Bottom.png</path>
+			<path>./../art/bottom.png</path>
 		</image> 
 		
-		<textlist name="gamelist">
-			<pos>0 0.50</pos>
-			<size>1 .37</size>
-			<alignment>center</alignment>
-			<horizontalMargin>0.01</horizontalMargin>
-		</textlist>
-		
+
+	</view>
+
+	<view name="basic">
+	</view>
+
+	<view name="detailed">
 	</view>
 	
 </theme>
