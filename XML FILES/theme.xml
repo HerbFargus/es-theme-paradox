@@ -1,6 +1,6 @@
 <theme>
     <formatVersion>3</formatVersion>
-    <include>./../simple.xml</include>
+    <include>./../paradox.xml</include>
 
 	<view name="system">
 
@@ -23,8 +23,8 @@
 		
 		<image name="logo">
 			<path>./art/logo.svg</path>
-			<pos>0.025 0.079</pos>
-			<maxSize>0.47 0.1</maxSize>
+			<pos>0.010 0.040</pos>
+			<maxSize>0.376 0.056</maxSize>
 			<origin>0 0.5</origin>
 		</image>
 		
