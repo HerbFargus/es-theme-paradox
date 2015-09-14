@@ -1,9 +1,8 @@
 <!--
-theme name:		simple
-version:		1.4
-author:			nils bonenberger
-email:			nilsbyte@nilsbyte.de
-website:		www.nilsbyte.de
+theme name:		paradox
+version:		1.0
+authors:		Rookervik, Herb Fargus, Ronoh55
+website:		http://blog.petrockblock.com/retropie/
 license:		creative commons CC-BY-NC-SA
 -->
 
@@ -20,65 +19,59 @@ license:		creative commons CC-BY-NC-SA
 	</view>
 
     <view name="basic, detailed">
-
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
-			<color>393a3b</color>
-			<forceUppercase>1</forceUppercase>
-			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
-			<fontSize>0.03</fontSize>
-			<size>0.12 0.04</size>
-		</text>
 		
-		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount">
-			<color>393a3b</color>
-			<forceUppercase>1</forceUppercase>
-			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
-			<fontSize>0.03</fontSize>
-			<size>0.14 0.04</size>
-		</text>
-
-		<text name="md_description">
-			<color>393a3b</color>
-			<forceUppercase>1</forceUppercase>
-			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
-			<fontSize>0.03</fontSize>
-		</text>
+		<image name="background" extra="true">
+			<path>./art/black.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+		</image> 
 		
-		<datetime name="md_releasedate, md_lastplayed">
-			<color>393a3b</color>
-			<forceUppercase>1</forceUppercase>
-			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
-			<fontSize>0.03</fontSize>
-			<size>0 0.04</size>
-		</datetime>
-		
-		<image name="header" extra="true">
+		<image name="headermiddle" extra="true">
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<size>1 0.16</size>
-			<path>./art/bright.png</path>
+			<size>1 0.08</size>
+			<path>./art/middle.png</path>
 		</image>
-
-		<image name="footer" extra="true">
+		
+		<image name="headerleft" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>0 0.08</size>
+			<path>./art/topleft.png</path>
+		</image>
+		
+		<image name="headerright" extra="true">
+			<pos>.787 0</pos>
+			<origin>0 0</origin>
+			<size>0 0.08</size>
+			<path>./art/topright.png</path>
+		</image>
+		
+		<image name="bottom" extra="true">
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 			<size>1 0.065</size>
-			<path>./art/bright.png</path>
+			<path>./art/bottom.png</path>
 		</image> 
-
-		<image name="background">
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./art/mid.png</path>
-		</image> 
+		
+		<image name="md_image">
+			<pos>.5 .30</pos>
+<!-- 			<size>0.23 0.301</size>
+ -->			<maxSize>0.35 0.35</maxSize>
+			<origin>.5 .5</origin>
+		</image>
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description, md_releasedate, md_lastplayed">
+			<pos>1 1</pos>
+		</text>
 
 		<textlist name="gamelist">
-			<selectorColor>ffffff00</selectorColor>
+			<selectorColor>181417</selectorColor>
 			<selectedColor>8b0000</selectedColor>
 			<primaryColor>393a3b</primaryColor>
 			<secondaryColor>000000</secondaryColor>
-			<fontPath>./art/PressStart2P.ttf</fontPath>
+			<fontPath>./art/Geometos.ttf</fontPath>
 			<fontSize>0.03</fontSize>
 			<forceUppercase>1</forceUppercase>
 			<!-- <scrollSound>./art/sound.wav</scrollSound> -->
@@ -113,9 +106,16 @@ license:		creative commons CC-BY-NC-SA
 	</view>
 
 	<view name="basic">
+	
 	</view>
 
 	<view name="detailed">
+		<textlist name="gamelist">
+			<pos>0 0.50</pos>
+			<size>1 .37</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
 	</view>
 	
 </theme>
