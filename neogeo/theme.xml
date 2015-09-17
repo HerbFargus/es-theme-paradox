@@ -1,0 +1,61 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../paradox.xml</include>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./art/main.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./art/logo.svg</path>
+        </image>
+		
+		<helpsystem name="help">
+			<textColor>ffffff66</textColor>
+			<iconColor>ffffff66</iconColor>
+		</helpsystem>
+		
+	</view>
+
+	<view name="basic, detailed">
+		
+		<image name="logo">
+			<path>./art/logo.svg</path>
+			<pos>0.010 0.040</pos>
+			<maxSize>0.376 0.056</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<image name="logo2" extra="true">
+			<path>./art/logo2.svg</path>
+			<pos>0.83 0.040</pos>
+			<maxSize>0.376 0.056</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<image name="controller" extra="true">
+			<pos>.65 .50</pos>
+			<origin>0 0</origin>
+			<size>0 0</size>
+			<path>./art/controller.png</path>
+		</image>
+		
+		<image name="footerbottom" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./../art/bottom.png</path>
+		</image> 
+		
+
+	</view>
+
+	<view name="basic">
+	</view>
+
+	<view name="detailed">
+	</view>
+	
+</theme>
