@@ -67,10 +67,10 @@ license:		creative commons CC-BY-NC-SA
 		</text>
 
 		<textlist name="gamelist">
-			<selectorColor>181417</selectorColor>
+			<selectorColor>ffffff00</selectorColor>
 			<selectedColor>8b0000</selectedColor>
 			<primaryColor>393a3b</primaryColor>
-			<secondaryColor>000000</secondaryColor>
+			<secondaryColor>181417</secondaryColor>
 			<fontPath>./art/Geometos.ttf</fontPath>
 			<fontSize>0.03</fontSize>
 			<forceUppercase>1</forceUppercase>
