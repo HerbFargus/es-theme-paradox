@@ -24,7 +24,7 @@
 		<image name="logo">
 			<path>./art/logo.svg</path>
 			<pos>0.010 0.040</pos>
-			<maxSize>0.376 0.056</maxSize>
+			<maxSize>0.270 0.040</maxSize>
 			<origin>0 0.5</origin>
 		</image>
 		
@@ -36,7 +36,7 @@
 		</image>
 		
 		<image name="controller" extra="true">
-			<pos>.57 .40</pos>
+			<pos>.70 .40</pos>
 			<origin>0 0</origin>
 			<size>0 0</size>
 			<path>./art/controller.png</path>

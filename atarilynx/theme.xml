@@ -36,7 +36,7 @@
 		</image>
 		
 		<image name="controller" extra="true">
-			<pos>.57 .40</pos>
+			<pos>.58 .45</pos>
 			<origin>0 0</origin>
 			<size>0 0</size>
 			<path>./art/controller.png</path>

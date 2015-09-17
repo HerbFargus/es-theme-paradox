@@ -23,7 +23,7 @@
 		
 		<image name="logo">
 			<path>./art/logo.svg</path>
-			<pos>0.010 0.040</pos>
+			<pos>0.050 0.040</pos>
 			<maxSize>0.376 0.056</maxSize>
 			<origin>0 0.5</origin>
 		</image>
