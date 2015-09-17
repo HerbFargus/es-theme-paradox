@@ -30,8 +30,8 @@
 		
 		<image name="logo2" extra="true">
 			<path>./art/logo2.svg</path>
-			<pos>0.83 0.040</pos>
-			<maxSize>0.376 0.056</maxSize>
+			<pos>0.80 0.040</pos>
+			<maxSize>0.320 0.025</maxSize>
 			<origin>0 0.5</origin>
 		</image>
 		

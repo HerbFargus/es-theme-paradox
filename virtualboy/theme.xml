@@ -24,13 +24,13 @@
 		<image name="logo">
 			<path>./art/logo.svg</path>
 			<pos>0.010 0.040</pos>
-			<maxSize>0.376 0.056</maxSize>
+			<maxSize>0.376 0.045</maxSize>
 			<origin>0 0.5</origin>
 		</image>
 		
 		<image name="logo2" extra="true">
 			<path>./art/logo2.svg</path>
-			<pos>0.83 0.040</pos>
+			<pos>0.835 0.040</pos>
 			<maxSize>0.376 0.056</maxSize>
 			<origin>0 0.5</origin>
 		</image>
