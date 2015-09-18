@@ -35,20 +35,6 @@
 			<origin>0 0.5</origin>
 		</image>
 		
-		<image name="background" extra="true">
-			<path>./art/Background.png</path>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<origin>0 0</origin>
-		</image>
-		
-		<image name="footerbottom" extra="true">
-			<pos>0 1</pos>
-			<origin>0 1</origin>
-			<size>1 0.065</size>
-			<path>./../art/bottom.png</path>
-		</image> 
-		
 
 	</view>
 

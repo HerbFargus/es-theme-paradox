@@ -10,7 +10,7 @@ license:		creative commons CC-BY-NC-SA
     <formatVersion>3</formatVersion>
 
 	<view name="system">
-	
+
 		<image name="background" extra="true">
 			<size>0 1</size>
 			<pos>0.5 0.5</pos>
@@ -19,9 +19,9 @@ license:		creative commons CC-BY-NC-SA
 	</view>
 
     <view name="basic, detailed">
-		
+
 		<image name="background" extra="true">
-			<path>./art/black.png</path>
+		<path>./art/black.png</path>
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<origin>0 0</origin>
