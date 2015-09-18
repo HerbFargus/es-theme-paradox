@@ -28,11 +28,11 @@
 			<origin>0 0.5</origin>
 		</image>
 		
-		<image name="logo2" extra="true">
-			<path>./art/logo2.svg</path>
-			<pos>0.83 0.040</pos>
-			<maxSize>0.376 0.056</maxSize>
-			<origin>0 0.5</origin>
+		<image name="background" extra="true">
+			<path>./art/Background.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
 		</image>
 		
 		<image name="controller" extra="true">

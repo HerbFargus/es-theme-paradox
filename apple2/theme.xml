@@ -35,11 +35,11 @@
 			<origin>0 0.5</origin>
 		</image>
 		
-		<image name="controller" extra="true">
-			<pos>.56 .40</pos>
+		<image name="background" extra="true">
+			<path>./art/Background.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
 			<origin>0 0</origin>
-			<size>0 0</size>
-			<path>./art/controller.png</path>
 		</image>
 		
 		<image name="footerbottom" extra="true">
